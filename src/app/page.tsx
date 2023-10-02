@@ -21,7 +21,7 @@ export default function Home() {
             <img src="./assets/images/logo.svg" alt="Logo" />
           </div>
           <div className={`${menu && 'bg-black/40 fixed'} ${!menu && 'mt-[-30px]'} md:mt-2 right-0 top-0 left-0 bottom-0 flex justify-end md:items-center`}>
-            <div className={`${menu && 'h-screen bg-white w-[80%]'} flex flex-col items-end`}>
+            <div className={`${menu && 'h-screen bg-white w-[60%]'} flex flex-col items-end`}>
               <button className={`mt-10 mr-2 md:hidden ${menu && 'mr-7'}`} onClick={handleToggle}>
                 {menu && <img src="./assets/images/icon-menu-close.svg" alt="" />}
                 {!menu && <img src="./assets/images/icon-menu.svg" alt="" />}
