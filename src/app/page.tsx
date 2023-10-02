@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col md:flex-row mt-6">
               <div className="text-5xl mb-5 md:mb-0 font-extrabold">
-                <h2>The Bright Future of Web 3.0?</h2>
+                <h1>The Bright Future of Web 3.0?</h1>
               </div>
               <div>
                 <p className="mb-8">
